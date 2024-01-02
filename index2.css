@@ -50,12 +50,12 @@
 #btn1{
   border: 2px solid rgb(253, 251, 251);
   width:auto;
-  height: 50px;
+  height: 30px;
   background-image:linear-gradient(to left bottom,red,white) ;
-  border-radius: 9px ;
+  border-radius: 5px ;
   position:relative ;
   top:10px;
-  box-shadow: 0 8px 16px 0;
+  box-shadow: 0 8px 2px 0;
   
 }
 #btn1:hover{
@@ -66,16 +66,20 @@ body{
   background-color: aliceblue;
   
 }
-#head{
-  height:200px;
-  border: solid;
-  padding: 10px;
-  border-radius:10px;background:url("grp1.jpg");
-  background-repeat:no-repeat;
-  background-size:100% 250px;
-  background-position-x: 0px;
+#head{background-image: url("logo.jpg");
+background-size: 100% 150px;
+background-repeat: no-repeat;
 }
-#mrq{color: rgb(255, 0, 21);
+#mrqh{
+  height: 240px;width:auto;
+  box-shadow:0 10px 8px 0 rgb(63, 61, 61)  ;
+border-radius: 10px; padding-left: 10px;
+scroll-behavior: smooth;
+}
+#mrqh:hover{border: solid rgb(250, 4, 4);
+    scroll-behavior: smooth;
+}
+#mrq{color: rgba(243, 10, 10, 0.938);
   background-color: rgb(200, 205, 243);
 }
 .main{ padding:20px ;
@@ -136,3 +140,21 @@ box-shadow: 8px 8px 16px 0;
 }
 #btn:hover{ scale:1;
 }
+#footer{
+  display:inline-flex;
+  position: relative;
+ width: 100%;
+ list-style-type:none;
+vertical-align:baseline;
+font-family: 'Rubik Broken Fax', sans-serif;
+
+}
+#timetbl{ width:60px;
+  height: 30px;
+  background-image:linear-gradient( to right bottom,rgb(241, 238, 243) , rgb(5, 197, 31));
+ box-shadow:0 1px 7px 0;
+  border-radius: 10px;
+  margin-left: 220px;
+  margin-top: 10px;
+  }
+  #timetbl:hover{ scale: 1.1;}
